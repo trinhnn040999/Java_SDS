@@ -1,0 +1,5 @@
+mvn archetype:generate
+modifiers: private/publuc/stactic/final...
+Type(kieu du lieu): huong doi tuong va k huong doi tuong
+ooD: VIEt ra cac class, dung class
+listItem: duyet kho
