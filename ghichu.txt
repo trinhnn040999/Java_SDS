@@ -1,5 +1,20 @@
 mvn archetype:generate
+groupId: ex.sds
+artifactId: ten project
+package
 modifiers: private/publuc/stactic/final...
 Type(kieu du lieu): huong doi tuong va k huong doi tuong
 ooD: VIEt ra cac class, dung class
-listItem: duyet kho
+class quan trong: printStream
+------------------------------------------------------------
+Java2:
+Buoi 1:
+-Java checklist: 
++Primitive(built-in) types: cac kieu du lieu co ban , VD: int, boolean, long, String
+           arthmetic operations: thao tac so hoc(+,-,*,/,%)
+	logical operations: &&, ||^^!
++ Convenrsion between types
+int x = Integer.valueOf(s);
++String operation
+Array operation:decleration and initialization, interation/loop search, sort, find index an element, reverse
+JCF: Arrays, Colections
