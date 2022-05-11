@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: ex.sds.AppTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in ex.sds.AppTest
+test1(ex.sds.AppTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	task cannot be resolved to a variable
+
+	at ex.sds.AppTest.test1(AppTest.java:41)
+
+test2(ex.sds.AppTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	task cannot be resolved to a variable
+
+	at ex.sds.AppTest.test2(AppTest.java:47)
+
+test3(ex.sds.AppTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	task cannot be resolved to a variable
+
+	at ex.sds.AppTest.test3(AppTest.java:53)
+
+test4(ex.sds.AppTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	task cannot be resolved to a variable
+
+	at ex.sds.AppTest.test4(AppTest.java:59)
+
