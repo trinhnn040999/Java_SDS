@@ -1,0 +1,4 @@
+Backtracking: giai bai toan liệt kê, tối ưu tổ hợp
+solution: biểu diễn bởi 1 bộ các biến(x1,x2..xn), xi thuộc Ai thỏa mãn các ràng buộc cho trước
+Ví dụ: Liệt kê các xâu nhị phân độ dài n
+n=3, (x1,x2,x3), xi thuộc {0,1}

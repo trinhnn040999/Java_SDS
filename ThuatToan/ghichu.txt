@@ -1,0 +1,5 @@
+- Khi chua biet mang co bao nhieu phan tu thi dung vector
+-Mang to thi khai bao ra ngoai
+
+
+(){}
