@@ -1,17 +1,24 @@
-//Liet ke cac xau nhi phan co do dai = n
+//Bai G cach khac
 #include <bits/stdc++.h>
 using namespace std;
 int n,h;
 int x[100];
 void solution(){
-	for(int i=1;i<=n;i++) cout <<x[i]<<" ";
+	int dem = 0;
+	for (int i = 1; i <= n; ++i) dem += x[i];
+	if (dem != h) return;
+	
+	for(int i=1;i<=n;i++) {
+		
+		if(x[i]==1) cout<<i<<' ';
+	}
 	cout<< endl;
 }
 int check(int v, int k){
 	return 1;
 }
 void Try(int k){
-	for(int v=1;v<=k;v++){
+	for(int v=1;v>=0;v--){
 		if(check(v,k)){
 			x[k]=v;
 			if(k==n) solution();
@@ -21,7 +28,7 @@ void Try(int k){
 }
 
 int main(){
-	cin>>n;
+	cin>>n>>h;
 	Try(1);
 	return 0;
 }
