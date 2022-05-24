@@ -6,14 +6,7 @@ int save[1002];
 bool mark[1002];
 int start(int i)
 { // day con tang a[i]...
-    if (mark[i])
-        return save[i];
-    if (i > n)
-    {
-        save[i] = 0;
-        mark[i] = true;
-        return 0;
-    }
+    if (mark[i]) return save[i];
     int ans = 1;
     for (int j = i + 1; j <= n; j++)
         if (a[j] > a[i])
